@@ -17,7 +17,7 @@
     "lint": "npm run eslint && npm run tsc",
     "eslint": "eslint src/** -c ./configs/.eslintrc",
     "tsc": "tsc --noEmit --lib es6,dom --skipLibCheck types/index.d.ts",
-    "lint:fix": "eslint src/** --fix",
+    "lint:fix": "eslint src/** --fix"
   },
   "husky": {
     "hooks": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylenguyen1014/material-table.git"
+    "url": "git+https://github.com/mbrn/material-table.git"
   },
   "keywords": [
     "react",
